@@ -3,9 +3,26 @@
     padding: 0;
 }
 
+
+
 header {
     display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
     gap: 45px;
+}
+
+.firstHeader_div {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.secondHeader_div {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    gap: 10px;
 }
 
 .lecture_container {
@@ -58,4 +75,16 @@ header {
     font-weight: bold;
 }
 
+.addStudent_container {
+    display: flex;
+    text-align: center;
+    justify-self: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addStudent {
+    font-size: 20px;
+    font-weight: bold;
+}
 
