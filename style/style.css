@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    gap: 45px;
+}
+
+.lecture_container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.lecture {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lecturer_container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.lecturer {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Course_container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Course {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search_container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.searchText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
